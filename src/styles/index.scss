@@ -1,3 +1,5 @@
+@import "loader";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 768px;
+}
+
+.done {
+  text-decoration: line-through;
 }
